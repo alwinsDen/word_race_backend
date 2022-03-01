@@ -1,9 +1,9 @@
 let express = require("express")
 let cors  = require('cors')
 let server = express()
-let mongodb = require("./mongodb")
-
 server.use(cors())
+
+let mongodb = require("./mongodb")
 
 server.use(express.json({extended:true}))
 
