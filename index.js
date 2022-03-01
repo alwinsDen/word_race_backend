@@ -24,6 +24,6 @@ server.get('/',(req,res)=> {
 setInterval(()=> {
     https.get("https://word-race-test.herokuapp.com/")
     https.get("https://backend-word.herokuapp.com/")
-},30000)
+},300000)
 
 server.use('/user',require('./mongoDbDepencies/playerData/playerData'))

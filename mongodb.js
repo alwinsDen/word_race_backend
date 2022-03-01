@@ -1,7 +1,7 @@
 let mongoose = require("mongoose")
-
+require("dotenv").config();
 const mongodb = () => {
-    mongoose.connect("mongodb+srv://admin:admin@cluster0.kwagt.mongodb.net/word_race?retryWrites=true&w=majority",
+    mongoose.connect(`${process.env.MOND_ID}`,
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
