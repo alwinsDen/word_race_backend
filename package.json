@@ -1,0 +1,27 @@
+{
+  "name": "word_race_backend",
+  "version": "1.0.0",
+  "description": "NodeJS backend for Word Race created as part of TASK given by Thinkerbell labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwinsDen/word_race_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alwinsDen/word_race_backend/issues"
+  },
+  "homepage": "https://github.com/alwinsDen/word_race_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  }
+}
